@@ -1,8 +1,8 @@
-Complete image to run Wine application throw x11vnc with xvfb display
+Complete image to run Wine application through x11vnc with xvfb display
 =====================================================================
 
 Docker image from Ubuntu 14.10 edition image to run Firefox and
-Windows software throw emulator accessing by view remotely X displays.
+Windows software through emulator accessing by view remotely X displays.
 
 Dockerfile explanation
 ----------------------

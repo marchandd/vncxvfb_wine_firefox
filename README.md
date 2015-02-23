@@ -4,12 +4,12 @@ marchandd/vncxvfb_wine_firefox [Docker:copyright:](https://docs.docker.com/ "Doc
 
 ## Description
 
-A sandbox container with last version of Mozilla Firefox ready to use from Linux host.
+A sandbox container with last version of Mozilla Firefox ready to use from Linux or Windows host.
 
 ### Goal
 
-Complex method to produce a GUI containers to access to Firefox into sandbox from Linux host.  
-Image can run Windows software throw emulator accessing by view remotely X displays.
+Complex method to produce a GUI containers to access to Firefox into sandbox from Linux or Windows host.  
+Image can run Windows software through emulator accessing by view remotely X displays.
 
 ### Image size
 
@@ -78,7 +78,7 @@ Reserve usage only in local mode.
  
 ## Linux test environment host
 
-### Host ###
+### Host
 
 On VNC client:
 - KUbuntu (14.10)
@@ -86,14 +86,14 @@ On VNC client:
 - KRDC-VNC (4.14.1)  
   Adress vnc://localhost:PORT
 
-### Client ###
+### Client
 
 On Docker container with Root account:
 - Ubuntu (14.10)
 
 ## Windows test environment host
 
-### Host ###
+### Host
 
 On VNC client:
 - Windows (7 & 8.1)
@@ -104,12 +104,12 @@ On VNC client:
   Address Boot2Docker_IPv4:PORT
 
 Remark:  
-Docker is accessing on Windows only throw VirtualBox network interface. 
+Docker is accessing on Windows only through VirtualBox network interface. 
 So, using 127.0.0.1 is not possible...
 - You must choose Boot2Docker_IPv4 remained at boot start into the 
 dedicated console.
 
-### Client ###
+### Client
 
 On Docker container with Root account:
 - Ubuntu (14.10)
