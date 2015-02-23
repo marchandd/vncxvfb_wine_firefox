@@ -31,7 +31,7 @@ Around 1300 Mb.
 
 ### Command line explanation
 
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/docs/summary.md "Summary")
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 
 ### Firewall
 
@@ -51,7 +51,7 @@ Where XXXXX is your Private port, if you doesn't know free port, try from
 
 ### Command line explanation
 
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/docs/summary.md "Summary")
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 
 ## Container usage
 
@@ -63,7 +63,7 @@ All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/docs/sum
 
 ### Dockerfile
 
-All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/docs/summary.md "Summary")
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 
 ### Display
 
