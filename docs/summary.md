@@ -42,7 +42,7 @@ Command build image usage
 ### Command line ###
 
 - :computer: `cd YOUR_DIRECTORY`
-- :computer: `docker build --rm=true -t vncxvfb_wine-firefox . > build.log`
+- :computer: `docker build --rm=true -t vncxvfb_wine_firefox . > build.log`
 
 ### Command line explanation ###
 
@@ -61,7 +61,7 @@ Standalone mode only to do software install by yourself.
 ### Command line ###
 
 - :computer: `docker run -d -p 127.0.0.1:XXXXX:5900 --name latest 
-vncxvfb_wine-firefox`
+vncxvfb_wine_firefox`
 
 Where XXXXX is your Private port, if you doesn't know free port, try from 
 49200...

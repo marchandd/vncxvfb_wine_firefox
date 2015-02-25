@@ -44,7 +44,7 @@ you will have to disable 5900 port filtering:
 
 ### Command line
 
-:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine-firefox`
+:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_firefox`
 
 Where XXXXX is your Private port, if you doesn't know free port, try from 
 49200...
@@ -75,41 +75,3 @@ Wine is installed but need to be initialized before using it.
 
 VNC protocol but not crypted...
 Reserve usage only in local mode.
- 
-## Linux test environment host
-
-### Host
-
-On VNC client:
-- KUbuntu (14.10)
-- Docker (1.4.1)
-- KRDC-VNC (4.14.1)  
-  Adress vnc://localhost:PORT
-
-### Client
-
-On Docker container with Root account:
-- Ubuntu (14.10)
-
-## Windows test environment host
-
-### Host
-
-On VNC client:
-- Windows (7 & 8.1)
-- Boot2Docker (1.4.1)
-- VirtualBox (4.3.20)
-- MsysGit (1.9.4)
-- Vnc-viewer (5.2.1)  
-  Address Boot2Docker_IPv4:PORT
-
-Remark:  
-Docker is accessing on Windows only through VirtualBox network interface. 
-So, using 127.0.0.1 is not possible...
-- You must choose Boot2Docker_IPv4 remained at boot start into the 
-dedicated console.
-
-### Client
-
-On Docker container with Root account:
-- Ubuntu (14.10)
