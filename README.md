@@ -40,24 +40,16 @@ deny,
 you will have to disable 5900 port filtering:
 - Make a new rule for VNC (5900/TCP) to enable outgoing policy.
 
-## Build container
+## Build container (standalone mode only)
 
-### Command line
-
-:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_firefox`
-
-Where XXXXX is your Private port, if you doesn't know free port, try from 
-49200...
-
-### Command line explanation
+Not necessary to do if you want only to run Portable-Apps Samples image...         
+Standalone mode only if you want to do software install by yourself.
 
 All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 
-## Container usage
+## Container usage (standalone mode only)
 
-### Alias
-
-:computer: `firefox`
+All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 
 ## Explanations
 
