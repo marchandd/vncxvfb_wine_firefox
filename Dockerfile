@@ -1,5 +1,6 @@
 FROM ubuntu:14.10
 MAINTAINER Marchand D. https://github.com/marchandd/vncxvfb_wine_firefox
+ENV VE_version="MarchandD_20150228_v01.00"
 # i386 usage
 RUN dpkg --add-architecture i386
 # Install vnc, xvfb in order to create a 'fake' display and firefox
