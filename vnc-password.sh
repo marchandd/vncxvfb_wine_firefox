@@ -3,10 +3,10 @@
 bash -c 'echo "firefox" >> /.bashrc'
 # Repository for VNC
 mkdir ~/.vnc
-# Setup a basic fixed password to test method...
-#VNC_PASSWD=1234
+# Setup a basic fixed password to public repository.
+VNC_PASSWD=vncxvfb_wine_firefox
 # Generate a random password with 15 characters that includes at least one capital letter and number.
-VNC_PASSWD=`pwgen -c -n -1 15`
+#VNC_PASSWD=`pwgen -c -n -1 15`
 echo VNC password access: $VNC_PASSWD
 echo VNC password access: $VNC_PASSWD > ~/.vnc/vnc-password.log
 x11vnc -storepasswd $VNC_PASSWD ~/.vnc/passwd
