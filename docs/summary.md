@@ -30,7 +30,7 @@ Scripting the password used for Root user to VNC remote access software.
 Script behaviours:
 - Automatic generation by default. Password viewed in console output.
 - VNC password is store into local file (in case of password lost) but accessible by Nsenter.
-- Script could be changed to modify policy or use static password.
+- Script could be changed to modify policy or use static password for Docker public repository.
 
 ### VNC accessing
 

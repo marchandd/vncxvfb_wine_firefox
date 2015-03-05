@@ -27,7 +27,7 @@ Around 1300 Mb.
 
 ### Command line
 
-:computer: `docker pull marchandd/vncxvfb_wine_firefox > build.log`
+:computer: `docker pull marchandd/vncxvfb_wine_firefox`
 
 ### Command line explanation
 
@@ -45,9 +45,16 @@ you will have to disable 5900 port filtering:
 Not necessary to do if you want only to run Portable-Apps Samples image...         
 Standalone mode only if you want to do software install by yourself.
 
+:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_firefox`
+
+Where XXXXX is your Private port, if you doesn't know free port, try from 
+49200...
+
 All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 
 ## Container usage (standalone mode only)
+
+Setup a basic fixed password for Docker public repository=vncxvfb_wine_firefox
 
 All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 
