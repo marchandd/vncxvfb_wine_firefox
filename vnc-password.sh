@@ -3,8 +3,8 @@
 bash -c 'echo "firefox" >> /.bashrc'
 # Repository for VNC
 mkdir ~/.vnc
-# Setup a basic fixed password to public repository.
-VNC_PASSWD=vncxvfb_wine_firefox
+# Set a basic fixed password for Docker public repository access.
+VNC_PASSWD='vncxvfb_wine_firefox'
 # Generate a random password with 15 characters that includes at least one capital letter and number.
 #VNC_PASSWD=`pwgen -c -n -1 15`
 echo VNC password access: $VNC_PASSWD
