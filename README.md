@@ -13,7 +13,7 @@ Image can run Windows software through emulator accessing by view remotely X dis
 
 ### Image size
 
-Around 1300 Mb.
+Around 1250 Mb.
 
 ### References
 
