@@ -41,7 +41,7 @@ you will have to disable 5900 port filtering:
 Not necessary to do if you want only to run Portable-Apps Samples image...         
 Standalone mode only if you want to do software install by yourself.
 
-:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_firefox`
+:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 --name latest_vncxvfb_wine_firefox marchandd/vncxvfb_wine_firefox`
 
 All details on [docs](https://github.com/marchandd/vncxvfb_wine_firefox/blob/master/docs/summary.md "Summary")
 

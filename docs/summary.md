@@ -51,9 +51,10 @@ Standalone mode only if you want to do software install by yourself.
 
 ### Command line
 
-:computer: `docker run -d -p 127.0.0.1:XXXXX:5900 marchandd/vncxvfb_wine_firefox`
+:computer: `docker run -d -p XXX.XXX.XXX.XXX:YYYYY:5900 --name latest_vncxvfb_wine_firefox marchandd/vncxvfb_wine_firefox`
 
-Where XXXXX is your Private port, if you doesn't know free port, try from 
+Where XXX.XXX.XXX.XXX is your IP v4 address.
+Where YYYYY is your Private port, if you doesn't know free port, try from 
 49200...
 
 Container usage (standalone mode only)
@@ -62,8 +63,8 @@ Container usage (standalone mode only)
 ### VNC client access
 
 - Open your VNC client (Terminal Server Client on Gnome, KRDC on KDE).
-- Choose VNC option and type localhost:XXXXX remote desktop.
-  XXXXX is your private port you have choose previously.
+- Choose VNC option and type localhost:YYYYY remote desktop.
+  YYYYY is your private port you have choose previously.
 - Choose root user and enter VNC password as 'vncxvfb_wine_firefox' for Docker public repository access.
 - You can have unsecured channel warning message because SSL is not activated.
 
